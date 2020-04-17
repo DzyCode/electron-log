@@ -1,4 +1,4 @@
-# electron-log
+# source
 
 ## Project setup
 ```
