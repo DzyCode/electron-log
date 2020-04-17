@@ -1,1 +1,1 @@
-declare function openLW(params:type): void
+declare function openLW(): void
