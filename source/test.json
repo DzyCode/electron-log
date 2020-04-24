@@ -12,8 +12,8 @@
   },
   output: {
     path: '/Users/a/code/diandian/electron-log/lib',
-    filename: 'js/[name].js',
-    publicPath: '/',
+    filename: '[name].js',
+    publicPath: '',
     chunkFilename: 'js/[name].js'
   },
   resolve: {
@@ -66,7 +66,7 @@
             loader: '/Users/a/code/diandian/electron-log/source/node_modules/cache-loader/dist/cjs.js',
             options: {
               cacheDirectory: '/Users/a/code/diandian/electron-log/source/node_modules/.cache/vue-loader',
-              cacheIdentifier: '7a1d5861'
+              cacheIdentifier: 'e38d6dac'
             }
           },
           /* config.module.rule('vue').use('vue-loader') */
@@ -77,7 +77,7 @@
                 whitespace: 'condense'
               },
               cacheDirectory: '/Users/a/code/diandian/electron-log/source/node_modules/.cache/vue-loader',
-              cacheIdentifier: '7a1d5861'
+              cacheIdentifier: 'e38d6dac'
             }
           }
         ]
@@ -1155,7 +1155,7 @@
             loader: '/Users/a/code/diandian/electron-log/source/node_modules/cache-loader/dist/cjs.js',
             options: {
               cacheDirectory: '/Users/a/code/diandian/electron-log/source/node_modules/.cache/babel-loader',
-              cacheIdentifier: 'e1b1cbf4'
+              cacheIdentifier: '3635fc82'
             }
           },
           /* config.module.rule('js').use('babel-loader') */
@@ -1173,7 +1173,7 @@
             loader: '/Users/a/code/diandian/electron-log/source/node_modules/cache-loader/dist/cjs.js',
             options: {
               cacheDirectory: '/Users/a/code/diandian/electron-log/source/node_modules/.cache/ts-loader',
-              cacheIdentifier: '0d75e89c'
+              cacheIdentifier: '7302194a'
             }
           },
           /* config.module.rule('ts').use('babel-loader') */
@@ -1202,7 +1202,7 @@
             loader: '/Users/a/code/diandian/electron-log/source/node_modules/cache-loader/dist/cjs.js',
             options: {
               cacheDirectory: '/Users/a/code/diandian/electron-log/source/node_modules/.cache/ts-loader',
-              cacheIdentifier: '0d75e89c'
+              cacheIdentifier: '7302194a'
             }
           },
           /* config.module.rule('tsx').use('babel-loader') */
@@ -1292,7 +1292,7 @@
       {
         'process.env': {
           NODE_ENV: '"development"',
-          BASE_URL: '"/"'
+          BASE_URL: '""'
         }
       }
     ),
@@ -1368,9 +1368,6 @@
   entry: {
     app: [
       './src/main.ts'
-    ],
-    index: [
-      'src/background.ts'
     ]
   }
 }
