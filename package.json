@@ -16,6 +16,6 @@
     "index.js"
   ],
   "devDependencies": {
-    "electron": "^8.2.2"
+    "electron": "^8.2.4"
   }
 }
